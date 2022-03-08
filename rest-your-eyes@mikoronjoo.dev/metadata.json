@@ -1,0 +1,11 @@
+{
+    "name": "Rest Your Eyes",
+    "uuid": "rest-your-eyes@mikoronjoo.dev",
+    "shell-version": [
+        "3.36",
+        "40",
+        "41"
+    ],
+    "version": 1,
+    "description": "Remind you to give a rest to your eyes every a specific period of time"
+}

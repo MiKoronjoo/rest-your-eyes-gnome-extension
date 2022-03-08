@@ -1,0 +1,12 @@
+#!/usr/bin/bash
+
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+if [ $2 -eq 1 ]; then
+    xcowsay -r 1000 --image="$SCRIPT_DIR/eyes.png" "Let's Go!";
+fi
+
+while true;
+do
+    sleep $1m;
+    xcowsay -r 1000000 --image="$SCRIPT_DIR/eyes.png" "Give your eyes a rest";
+done
